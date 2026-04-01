@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Allston Rail Yard">
+  <rect width="1200" height="800" fill="#f5efe8"/>
+  <rect x="72" y="72" width="1056" height="656" rx="28" fill="white" stroke="#8b1e3f" stroke-width="8"/>
+  <path d="M170 540 L360 360 L520 430 L720 250 L930 360" fill="none" stroke="#8b1e3f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="360" r="16" fill="#8b1e3f"/>
+  <circle cx="520" cy="430" r="16" fill="#8b1e3f"/>
+  <circle cx="720" cy="250" r="16" fill="#8b1e3f"/>
+  <rect x="150" y="150" width="230" height="44" rx="22" fill="#8b1e3f" opacity="0.12"/>
+  <text x="150" y="182" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#8b1e3f">Story media placeholder</text>
+  <text x="150" y="640" font-family="Georgia, serif" font-size="58" fill="#111">Allston Rail Yard</text>
+  <text x="150" y="690" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#444">Swap this with an archival image, map, or campus plan.</text>
+</svg>

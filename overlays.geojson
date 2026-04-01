@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "cambridge-core",
+        "name": "Historic Cambridge core",
+        "stroke": "#a51c30",
+        "fill": "#a51c30",
+        "opacity": 0.12,
+        "line_width": 2.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1218,
+              42.3726
+            ],
+            [
+              -71.1125,
+              42.3726
+            ],
+            [
+              -71.1125,
+              42.377
+            ],
+            [
+              -71.1218,
+              42.377
+            ],
+            [
+              -71.1218,
+              42.3726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "allston-corridor",
+        "name": "Allston corridor",
+        "stroke": "#1f6f8b",
+        "fill": "#1f6f8b",
+        "opacity": 0.12,
+        "line_width": 2.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1353,
+              42.3596
+            ],
+            [
+              -71.1215,
+              42.3596
+            ],
+            [
+              -71.1215,
+              42.3655
+            ],
+            [
+              -71.1353,
+              42.3655
+            ],
+            [
+              -71.1353,
+              42.3596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "river-edge",
+        "name": "River edge alignment",
+        "stroke": "#2c7fb8",
+        "line_width": 4,
+        "opacity": 0.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.132,
+            42.3599
+          ],
+          [
+            -71.127,
+            42.3595
+          ],
+          [
+            -71.122,
+            42.3594
+          ],
+          [
+            -71.116,
+            42.3592
+          ]
+        ]
+      }
+    }
+  ]
+}

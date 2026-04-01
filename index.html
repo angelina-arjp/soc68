@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An advanced GitHub-ready story map template for campus property histories and planning narratives."
+    />
+    <title>Harvard Property Storymap</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow" id="eyebrow">Advanced GitHub-ready starter</p>
+      <h1 id="site-title">Harvard Property Storymap</h1>
+      <p class="site-subtitle" id="site-subtitle">
+        A reusable scroll-driven map for tracing campus landholdings, planning documents, neighborhood conflict, and expansion over time.
+      </p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Story panel">
+        <section class="controls panel" aria-label="Timeline controls">
+          <div class="controls-top">
+            <h2>Story controls</h2>
+            <button id="jump-first-step" class="ghost-button" type="button">Jump to first step</button>
+          </div>
+          <div class="slider-row">
+            <label for="map-slider"><span id="slider-label">Selected year</span>: <strong id="slider-year">2026</strong></label>
+            <input id="map-slider" type="range" min="1636" max="2026" value="2026" />
+          </div>
+          <p class="small-note">
+            Crimson parcels are active holdings in the selected year. Dark parcels are former holdings that had already been sold. Use the slider manually, or let each scroll step update the year for you.
+          </p>
+        </section>
+
+        <section class="story-media-shell" aria-label="Story media frame">
+          <div class="story-media-head">
+            <h2 id="story-media-title">Harvard Property Storymap</h2>
+            <p id="story-media-note">Media tied to the active step</p>
+          </div>
+          <div id="story-media-content" class="story-media-body"></div>
+        </section>
+
+        <section id="chapters-container" class="chapters" aria-label="Story sections"></section>
+
+        <section class="repo-notes panel" id="repo-notes">
+          <h2>What to edit first</h2>
+          <ol>
+            <li><code>data/properties.geojson</code> for parcels and dates</li>
+            <li><code>data/overlays.geojson</code> for chapter-specific plans, routes, or highlighted zones</li>
+            <li><code>assets/js/config.js</code> for chapter text, camera moves, and media</li>
+            <li><code>assets/images/</code> for archival images and comparisons</li>
+          </ol>
+          <p>
+            This version is meant to be maintainable in GitHub, so the map behavior is driven by config and GeoJSON rather than hardcoded chapter logic.
+          </p>
+        </section>
+      </aside>
+
+      <main class="map-panel" aria-label="Map panel">
+        <div id="map"></div>
+        <div class="map-state">
+          <h2 id="map-state-title">Harvard Property Storymap</h2>
+          <p id="map-state-step">Focused step</p>
+        </div>
+        <div class="legend" aria-label="Legend and overlay status">
+          <p class="legend-title">Map legend</p>
+          <div class="legend-item"><span class="swatch current"></span><span>Current holding</span></div>
+          <div class="legend-item"><span class="swatch former"></span><span>Former holding</span></div>
+          <div class="legend-item"><span class="swatch focus"></span><span>Focused parcel</span></div>
+          <div class="legend-item"><span class="swatch route"></span><span>Overlay or route</span></div>
+          <div class="overlay-note">Visible overlays: <span id="overlay-status">None</span></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>

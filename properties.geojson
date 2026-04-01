@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yard-001",
+        "name": "Harvard Yard Core",
+        "address": "Harvard Yard, Cambridge, MA",
+        "year_start": 1636,
+        "year_end": null,
+        "currently_owned": true,
+        "currently_exists": true,
+        "quad_flag": true,
+        "lat": 42.3744,
+        "lon": -71.1169,
+        "group": "cambridge"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1194,
+              42.3734
+            ],
+            [
+              -71.1144,
+              42.3734
+            ],
+            [
+              -71.1144,
+              42.3763
+            ],
+            [
+              -71.1194,
+              42.3763
+            ],
+            [
+              -71.1194,
+              42.3734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "allston-001",
+        "name": "Western Avenue Parcel",
+        "address": "Western Ave, Allston, MA",
+        "year_start": 1985,
+        "year_end": null,
+        "currently_owned": true,
+        "currently_exists": true,
+        "quad_flag": false,
+        "lat": 42.3633,
+        "lon": -71.1266,
+        "group": "allston"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.129,
+              42.362
+            ],
+            [
+              -71.1248,
+              42.362
+            ],
+            [
+              -71.1248,
+              42.3645
+            ],
+            [
+              -71.129,
+              42.3645
+            ],
+            [
+              -71.129,
+              42.362
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "allston-002",
+        "name": "Former Industrial Holding",
+        "address": "Sample parcel near the rail corridor",
+        "year_start": 1998,
+        "year_end": 2013,
+        "currently_owned": false,
+        "currently_exists": true,
+        "quad_flag": false,
+        "lat": 42.3618,
+        "lon": -71.1308,
+        "group": "allston"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1328,
+              42.3609
+            ],
+            [
+              -71.1289,
+              42.3609
+            ],
+            [
+              -71.1289,
+              42.3626
+            ],
+            [
+              -71.1328,
+              42.3626
+            ],
+            [
+              -71.1328,
+              42.3609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "river-001",
+        "name": "Riverside Expansion Site",
+        "address": "Illustrative parcel near the Charles River",
+        "year_start": 2003,
+        "year_end": null,
+        "currently_owned": true,
+        "currently_exists": true,
+        "quad_flag": false,
+        "lat": 42.3604,
+        "lon": -71.1188,
+        "group": "allston"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1211,
+              42.3594
+            ],
+            [
+              -71.1164,
+              42.3594
+            ],
+            [
+              -71.1164,
+              42.3614
+            ],
+            [
+              -71.1211,
+              42.3614
+            ],
+            [
+              -71.1211,
+              42.3594
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
